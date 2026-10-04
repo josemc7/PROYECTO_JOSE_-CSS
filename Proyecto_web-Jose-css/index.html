@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Barbería Style Good</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Barbería Style Good</h1>
+        <p>Tu estilo, nuestra pasión</p>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html#nosotros">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="precios.html">Precios</a></li>
+            <li><a href="formularios.html">Citas</a></li>
+            <li><a href="index.html#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="sec1" id="inicio">
+            <h2>Bienvenido</h2>
+            <article>
+                <p>
+                    Bienvenido a Barberia Style Good, un espacio diseñado para quienes 
+                    buscan más que un simple corte de cabello. Aquí combinamos estilo, 
+                    comodidad y profesionalismo para brindarte una experiencia única.
+                </p>
+                <p>
+                    Nos enfocamos en cada detalle para que salgas con la mejor versión de ti mismo.
+                </p>
+                <div class="interior">
+                    <div class="box"><img src="imagenes/interior.jpg" alt="interior de barberia 1"></div>
+                    <div class="box"><img src="imagenes/foto2.PNG" alt="interior de barberia 2"></div>
+                    <div class="box"><img src="imagenes/foto3.PNG" alt="interior de barberia 3"></div>
+                </div>
+            </article>
+        </section>
+
+        <section class="sec2" id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>
+                En Barbería style good contamos con años de experiencia en el mundo del 
+                cuidado masculino, ofreciendo servicios de alta calidad y atención personalizada.
+            </p>
+            <p>
+                Nuestro objetivo es brindar confianza a cada cliente, ayudándolo a encontrar 
+                el estilo que mejor se adapte a su personalidad. Trabajamos con dedicación, 
+                precisión y pasión por lo que hacemos.
+            </p>
+            <aside>
+                <p>Tip: Agenda tu cita con anticipación para asegurar tu horario.</p>
+            </aside>
+        </section>
+
+        <!-- ADELANTO: SERVICIOS -->
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="cont-ser">
+                <article class="caja-ser">
+                    <h3>Corte de cabello</h3>
+                    <p>Cortes modernos y clásicos.</p>
+                    <img src="imagenes/moerno.jpg" alt="corte de cabello">
+                </article>
+                <article class="caja-ser">
+                    <h3>Limpieza facial</h3>
+                    <p>Tratamiento para la piel facial.</p>
+                    <img src="imagenes/mascarilla.jpg" alt="limpieza facial">
+                </article>
+                <article class="caja-ser">
+                    <h3>Arreglo de barba</h3>
+                    <p>Perfilado preciso a tu estilo.</p>
+                    <img src="imagenes/barba.jpg" alt="arreglo de barba">
+                </article>
+            </div>
+            <div class="ver-mas">
+                <a href="servicios.html" class="btn-ver-mas">Ver todos los servicios</a>
+            </div>
+        </section>
+
+        <!-- ADELANTO: GALERÍA -->
+        <section id="galeria">
+            <h2>Nuestros Trabajos</h2>
+            <div class="cont-gal">
+                <figure class="caja-gal">
+                    <img src="imagenes/moerno.jpg" alt="Corte moderno">
+                    <figcaption>Corte moderno</figcaption>
+                </figure>
+                <figure class="caja-gal">
+                    <img src="imagenes/midfhade.jpg" alt="Corte Mid Fade">
+                    <figcaption>Mid Fade</figcaption>
+                </figure>
+                <figure class="caja-gal">
+                    <img src="imagenes/tap.jpg" alt="Corte Taper Fade">
+                    <figcaption>Taper Fade</figcaption>
+                </figure>
+            </div>
+            <div class="ver-mas">
+                <a href="galeria.html" class="btn-ver-mas">Ver galería completa</a>
+            </div>
+        </section>
+
+        <!-- ADELANTO: PRECIOS -->
+        <section id="precios">
+            <h2>Precios</h2>
+            <div class="tabla-precios">
+                <table>
+                    <thead>
+                        <tr><th>Servicio</th><th>Precio</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Corte clásico</td><td>Bs. 30</td></tr>
+                        <tr><td>Corte moderno</td><td>Bs. 35</td></tr>
+                        <tr><td>Arreglo de barba</td><td>Bs. 25</td></tr>
+                        <tr class="fila-combo"><td>Corte + barba</td><td>Bs. 50</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="ver-mas">
+                <a href="precios.html" class="btn-ver-mas">Ver lista completa de precios</a>
+            </div>
+        </section>
+
+        <!-- ADELANTO: CITAS -->
+        <section id="citas">
+            <h2>Reserva tu Cita</h2>
+            <div class="cita-resumen">
+                <p>Elige tu servicio, tu barbero favorito y el horario que mejor te quede. ¡Te esperamos!</p>
+                <a href="formulario.html" class="btn-ver-mas">Hacer una Reserva ahora</a>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="cont-contacto">
+                <article class="caja-contacto">
+                    <h3>📍 Ubicación</h3>
+                    <p>Av. Moscú #5030</p>
+                    <p>Santa Cruz, Bolivia</p>
+                </article>
+                <article class="caja-contacto">
+                    <h3>🕒 Horario</h3>
+                    <p>Lunes a Viernes: 9:00 - 20:00</p>
+                    <p>Sábados y domingos: 9:00 - 20:00</p>
+                </article>
+                <article class="caja-contacto">
+                    <h3>📞 Escríbenos</h3>
+                    <p>Teléfono: 70707070</p>
+                    <p>Email: barberstylegood@email.com</p>
+                </article>
+            </div>
+            <h3 class="titulo-redes">Síguenos en redes</h3>
+            <ul class="redes">
+                <li><a href="#" target="_blank">Facebook</a></li>
+                <li><a href="#" target="_blank">Instagram</a></li>
+                <li><a href="#" target="_blank">TikTok</a></li>
+                <li><a href="#" target="_blank">WhatsApp</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-copy">&copy; 2026 Barbería Style Good - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
